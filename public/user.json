@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "gender": "Male",
+  "location": "New York, USA",
+  "interest1": "Reading",
+  "interest2": "Traveling",
+  "email": "john.doe@example.com",
+  "username": "johndoe",
+  "displayName": "John",
+  "avatarUri": "https://firebasestorage.googleapis.com/v0/b/adtest-96abe.appspot.com/o/images%2Fjaytest%2F4475da4a-7526-4c34-88fb-05712576b738.png?alt=media&token=a29930c9-d8a7-448d-a952-4791b282a368"
+}
