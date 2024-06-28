@@ -49,9 +49,12 @@ const UserProfile = () => {
   };
 
   const fetchUserInfo = () => {
-    axios.get('https://api-staging-0.gotartifact.com/v2/users/me', {
+    axios.post('https://be-dj-stg-0-aocnhs7n5a-uc.a.run.app/v2/users/authentication/signin', {
+      email: 'jayadmin@gmail.com',
+      password: '123123'
+    }, {
       headers: {
-        Authorization: `Bearer YOUR_AUTH_TOKEN`
+        'Content-Type': 'application/json'
       }
     })
     .then(response => {
@@ -66,6 +69,7 @@ const UserProfile = () => {
     })
     .catch(error => console.error('Error fetching user info', error));
   };
+  
 
   return (
     <div className="container">
